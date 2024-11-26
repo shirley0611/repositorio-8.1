@@ -4,10 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Estilos</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Helvetica', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilo para el título */
+        .title {
+            color: blueviolet;
+            text-align: center;
+            font-size: 2em;
+            margin-top: 20px;
+        }
+
+        /* Estilo para el párrafo */
+        .paragraph {
+            font-family: Arial, sans-serif;
+            font-size: 1.2em;
+            text-align: justify;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        /* Estilo para la imagen */
+        .image {
+            display: block;
+            margin: 20px auto;
+            width: 50%;
+            border-radius: 8px; /* Bordes redondeados */
+        }
+
+        /* Estilo para el pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-    <H1>titulo en linea</H1>
-    <p>Parrafo En Linea</p>
-    <img src="gato.png"
+    <!-- Header con un título -->
+    <header>
+        <h1 class="title">Título en Línea</h1>
+    </header>
+
+    <!-- Sección de contenido principal -->
+    <section>
+        <p class="paragraph">Este es un párrafo en línea, mejor organizado con CSS. Aquí puedes añadir más contenido para mejorar la presentación y estética de tu página web. El texto tiene un mayor espaciado entre líneas, lo que facilita su lectura.</p>
+    </section>
+
+    <!-- Imagen con alt para accesibilidad -->
+    <section>
+        <img src="gato.png" alt="Un gato jugando" class="image">
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Mi Página Web</p>
+    </footer>
 </body>
 </html>
